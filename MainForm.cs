@@ -48,7 +48,7 @@ namespace Lab_9
                 cl = 0;
                 while (x2 <= x2max)
                 {
-                    y = x1 + x2;
+                    y = Function(x1, x2);
                     gv.Rows[rw].Cells[cl].Value = y.ToString("0.000");
                     x2 += dx2; cl++;
                 }
